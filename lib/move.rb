@@ -11,7 +11,7 @@ def input_to_index(inp)
   return inp.to_i - 1
 end
 
-def move(b, in, char="X")
-  b[in] = char
+def move(b, inp, char="X")
+  b[inp] = char
   return b
 end
