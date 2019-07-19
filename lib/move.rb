@@ -10,3 +10,8 @@ end
 def input_to_index(inp)
   return inp.to_i - 1
 end
+
+def move(b, input, char="X")
+  b[input] = char
+  return b
+end
